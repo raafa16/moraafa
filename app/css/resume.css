@@ -83,6 +83,10 @@ p.lead {
   color: #008080;
 }
 
+.navbar {
+  padding: 0 !important;
+}
+
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
@@ -119,10 +123,7 @@ p.lead {
     display: -ms-flexbox;
     display: flex;
     margin: auto auto 0;
-    padding: 0.5rem;
-  }
-  #sideNav .navbar-brand .img-profile {
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    padding: 0;
   }
   #sideNav .navbar-collapse {
     display: -webkit-box;
