@@ -122,7 +122,7 @@ p.lead {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin: auto auto 0;
+    margin: 0 auto 0;
     padding: 0;
   }
   #sideNav .navbar-collapse {
