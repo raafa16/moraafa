@@ -74,8 +74,16 @@ p.lead {
   margin-right: 0;
 }
 
-.social-icons a:hover {
-  background-color: #008080;
+.social-icons a.linkedin:hover {
+  background-color: #0075af;
+}
+
+.social-icons a.github:hover {
+  background-color: #282d31;
+}
+
+.social-icons a.facebook:hover {
+  background-color: #4365ac;
 }
 
 .dev-icons {
