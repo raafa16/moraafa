@@ -83,10 +83,6 @@ p.lead {
   color: #008080;
 }
 
-.navbar {
-  padding: 0 !important;
-}
-
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
@@ -103,6 +99,9 @@ p.lead {
 }
 
 @media (min-width: 992px) {
+  .navbar {
+    padding: 0 !important;
+  }
   #sideNav {
     text-align: center;
     position: fixed;
@@ -156,7 +155,11 @@ p.lead {
 section.resume-section {
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
-  max-width: 75rem;
+  max-width: 100rem;
+}
+
+#about {
+  text-align: center;
 }
 
 section.resume-section .resume-item .resume-date {
