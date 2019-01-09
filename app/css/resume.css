@@ -54,6 +54,9 @@ p.lead {
   font-size: 1.5rem;
 }
 
+.subheading.email {
+  text-transform: none;
+}
 .social-icons a {
   display: inline-block;
   height: 3.5rem;
@@ -196,4 +199,8 @@ a {
 
 a:hover, a:focus, a:active {
   color: #008080;
+}
+
+a.nav-link.js-scroll-trigger.waves-effect.waves-light.active {
+  background-color: #005656 !important;
 }
