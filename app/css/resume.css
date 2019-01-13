@@ -375,3 +375,15 @@ a.nav-link.js-scroll-trigger.waves-effect.waves-light.active {
     font-size: 5rem;
   }
 }
+
+.btn {
+  padding: 5px;
+}
+
+.btn-primary {
+  background-color: #008080 !important;
+}
+
+.btn-primary:active, .btn-primary:hover .btn-primary:not([disabled]):not(.disabled).active, .btn-primary:not([disabled]):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+  background-color: #005656 !important;
+}
