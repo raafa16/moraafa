@@ -132,8 +132,13 @@ p.lead {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin: 0 auto 0;
-    padding: 0;
+    margin: auto auto 0;
+    padding: 2.5rem;
+  }
+  #sideNav .navbar-brand .img-profile {
+      max-width: 15rem;
+      max-height: 12rem;
+      border: .5rem solid rgba(255,255,255,.2);
   }
   #sideNav .navbar-collapse {
     display: -webkit-box;
@@ -386,4 +391,8 @@ a.nav-link.js-scroll-trigger.waves-effect.waves-light.active {
 
 .btn-primary:active, .btn-primary:hover .btn-primary:not([disabled]):not(.disabled).active, .btn-primary:not([disabled]):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
   background-color: #005656 !important;
+}
+
+@media (min-width: 990px) {
+  display: none;
 }
