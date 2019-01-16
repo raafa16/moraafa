@@ -394,5 +394,7 @@ a.nav-link.js-scroll-trigger.waves-effect.waves-light.active {
 }
 
 @media (min-width: 990px) {
-  display: none;
+  .mobile-img {
+    display: none;
+  }
 }
