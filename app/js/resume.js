@@ -33,3 +33,19 @@
     target: "#sideNav"
   });
 })(jQuery); // End of use strict
+
+$(function() {
+  $(".card").on("click", function(e) {
+    e.preventDefault();
+
+    var $this = $(this);
+
+    console.log($this);
+
+    $this.find(".card-reveal").slideToggle("slow");
+  });
+
+  // $(".card-reveal .close").on("click", function() {
+  //   $(".card-reveal").slideToggle("slow");
+  // });
+});

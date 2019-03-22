@@ -366,7 +366,7 @@
         <hr class="m-0">
 
         <!-- Portfolio Grid -->
-        <section class="bg-light resume-section p-3 p-lg-5 d-flex flex-column text-center" id="portfolio">
+        <section class="bg-white resume-section p-3 p-lg-5 d-flex flex-column text-center" id="portfolio">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
@@ -375,19 +375,59 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-4 col-sm-6 portfolio-item">
-                        <a class="portfolio-link waves-effect waves-light" data-toggle="modal" href="#portfolioModal1">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                <i class="fas fa-plus fa-3x"></i>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card waves-effect waves-light">
+                            <div class="card-image">
+                                <img class="img-responsive" src="app/img/portfolio/rotopremierleague.png" alt="rotopremierleague.com">
+                            </div><!-- card image -->
+                            <div class="card-content">
+                                <span class="card-title"><h4>RotoPremierLeague.com</h4></span>
+                            </div><!-- card content -->
+                            <div class="card-action">
+                                <p class="text-muted">Fantasy Football site based on English Premier League. The company is based in Wisconsin.</p>
+                            </div><!-- card actions -->
+                            <div class="card-reveal waves-effect waves-light">
+                                <span class="card-title text-left turqoise">Contributions</span> <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                <!-- Project Details Go Here -->
+                                <ul class="text-left overflow-auto">
+                                    <li>Rebuilt back-end using <strong>PostgreSQL</strong>, <strong>Rails 5</strong> and <strong>Trailblazer Architecture</strong>.</li>
+                                    <li>Implemented real-time drafting using <strong>ActionCable</strong>.</li>
+                                    <li>Front-End: <Strong>Angular</Strong> - Implemented several modules to function with new back-end.</li>
+                                    <li>Wrote background jobs to optimize live scoring and stats calculation.</li>
+                                    <li>Important Gems used: devise, railsadmin, sidekiq, capistrano, stripe, listen, bullet, newrelic, simplecov, whenever.</li>
+                                    <li>Project duration: 1 year | Team Size: 4 people</li>
+                                </ul>
+                                <div class="position-absolute fixed-bottom">
+                                    <a href="https://www.rotopremierleague.com" target="_blank" role="button" class="btn btn-primary mt-4 mb-2 waves-effect waves-light"><i class="fas fa-external-link-alt fa-2x"></i></a>
                                 </div>
-                            </div>
-                            <img class="img-fluid" src="app/img/portfolio/rotopremierleague.png" alt="">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>Roto Premier League</h4>
-                            <p class="text-muted">Fantasy Football site based on English Premier League. The company is based in Wisconsin.</p>
-                            <a href="https://www.rotopremierleague.com" target="_blank" role="button" class="btn btn-primary mt-4 mb-2 waves-effect waves-light"><i class="fas fa-external-link-alt fa-3x"></i></a>
+                            </div><!-- card reveal -->
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card waves-effect waves-light">
+                            <div class="card-image">
+                                <img class="img-responsive" src="app/img/portfolio/ritani.png" alt="ritani.com">
+                            </div><!-- card image -->
+                            <div class="card-content">
+                                <span class="card-title"><h4>Ritani.com</h4></span>
+                            </div><!-- card content -->
+                            <div class="card-action">
+                                <p class="text-muted">Ritani is a fine jewelry company specializing in engagement rings and bridal jewelry. The company is based in New York.</p>
+                            </div><!-- card actions -->
+                            <div class="card-reveal waves-effect waves-light">
+                                <span class="card-title text-left turqoise">Contributions</span> <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                <!-- Project Details Go Here -->
+                                <ul class="text-left overflow-auto">
+                                    <li>Responsible for <strong>Rebranding</strong> and <strong>Platform Enhancement</strong> by designing responsive homepage, channel pages, checkout and cart pages.</li>
+                                    <li>Implemented/updated several tags/pixels for <Strong>Google Tag Manager</Strong> and <strong>Facebook Pixel</strong> for analytics.</li>
+                                    <li>Integrated <strong>Google Recaptcha</strong> for safer form submissions.</li>
+                                    <li>Refactored existing code (Rails, Jquery, HTML5, CSS3).</li>
+                                    <li>Project duration: 1 year | Team Size: 8 people</li>
+                                </ul>
+                                <div class="position-absolute fixed-bottom">
+                                    <a href="https://www.ritani.com" target="_blank" role="button" class="btn btn-primary mt-4 mb-2 waves-effect waves-light"><i class="fas fa-external-link-alt fa-2x"></i></a>
+                                </div>
+                            </div><!-- card reveal -->
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 portfolio-item">
@@ -488,53 +528,6 @@
         </section>
 
         <!-- Portfolio Modals -->
-
-        <!-- Modal 1 -->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-dismiss="modal">
-                        <div class="lr">
-                            <div class="rl"></div>
-                        </div>
-                    </div>
-                    <div class="container">
-                        <div class="modal-body">
-                            <div class="row d-block">
-                                <h2 class="text-uppercase">Roto Premier League</h2>
-                                <p class="item-intro text-muted">Fantasy Football site based on English Premier League. The company is based in Wisconsin.</p>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-6 order-sm-1">
-                                        <img class="img-fluid d-block mx-auto" src="app/img/portfolio/rotopremierleague.png" alt="rotopremierleague.com">
-                                </div>
-                                <div class="col-sm-6 order-sm-12">
-                                    <!-- Project Details Go Here -->
-                                    <ul class="list-group list-group-flush text-left">
-                                        <li class="list-group-item">Rebuilt Back-End using Rails 5 and Trailblazer Architecture.</li>
-                                        <li class="list-group-item">Used ActionCable to implement real-time footballer drafting and chat between club owners.</li>
-                                        <li class="list-group-item">Front-End: AngularJS. Implemented several modules to function with new Back-End.</li>
-                                        <li class="list-group-item">Wrote several background jobs to optimize massive amount of live score and stats calculation.</li>
-                                        <li class="list-group-item">Important Gems used: devise, railsadmin, capistrano, stripe, listen, bullet, newrelic, simplecov, whenever.</li>
-                                        <li class="list-group-item">Duration of Project: November 2016 - October 2017 | Team size: 4</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="row text-center">
-                                <button class="btn btn-primary" type="button">
-                                    <i class="fas fa-times"></i>
-                                    Visit Project
-                                </button>
-                                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                    <i class="fas fa-times"></i>
-                                    Close Project
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
         <!-- Modal 2 -->
         <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
