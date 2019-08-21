@@ -38,5 +38,5 @@ $(function() {
   $(".card").on("click", function(e) {
     var $this = $(this);
     $this.find(".card-reveal").slideToggle("slow");
-  }); 
+  });
 });
